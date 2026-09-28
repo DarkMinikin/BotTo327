@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  bot:
+    build: .
+    container_name: bot327
+    restart: unless-stopped
+    env_file:
+      - .env
