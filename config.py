@@ -1,7 +1,7 @@
 # config.py
 
 # ID канала и название таблицы
-CHANNEL_ID = 123456789012345678  
+CHANNEL_ID = 1555734758015893655
 GOOGLE_SHEET_NAME = '[RSQ] 327-й Десантно-Штурмовой Батальон "Крайт"'
 CHECK_INTERVAL_MINUTES = 5
 
