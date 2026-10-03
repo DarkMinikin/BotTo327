@@ -1,8 +1,13 @@
-version: '3.8'
 services:
-  bot:
+  discord-bot:
     build: .
-    container_name: bot327
+    container_name: BotTo327
     restart: unless-stopped
+    network_mode: "host"
     env_file:
       - .env
+    volumes:
+      - role_data:/app/data
+
+volumes:
+  role_data:
